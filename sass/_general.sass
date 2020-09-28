@@ -1,0 +1,233 @@
+header
+	background: url("../img/bg.png") no-repeat
+	background-size: cover
+	min-height: 520px
+	padding-top: 56px
+	.contact 
+		margin-bottom: 68px
+		.logo
+			font-size: 119px
+			font-family: MrsEaves
+			font-style: italic
+			color: rgba(255, 255, 255, 0.68)
+			text-align: center
+			line-height: 0.8
+		.menu 
+			display: flex
+			justify-content: space-around
+			a
+				font-size: 23px
+				font-weight: 300
+				color: #ffffff
+				text-decoration: none
+				text-align: center
+	.slogan
+		display: flex
+		justify-content: center
+		align-items: center
+		position: relative
+		a img
+			width: 50px
+			height: 50px
+		#prev
+			position: absolute
+			right: auto
+			left: 55px
+		#next
+			position: absolute
+			right: 55px
+			left: auto
+		&_img img
+			margin-bottom: -41px
+			width: 329px
+			height: 340px
+		&_title
+			margin-left: 72px
+			position: relative
+			h1
+				color: #ffffff
+				font-size: 65px
+				font-weight: 600
+			h2
+				font-size: 45px
+				font-weight: 300
+				color: #ffffff
+				margin-bottom: 38px
+			button
+				width: 138px
+				height: 42px
+				border: solid 4px rgba(0, 0, 0, 0.37)
+				background-color: #12b367
+				display: flex
+				justify-content: center
+				align-items: center
+				font-size: 23px
+				font-family: SegoeWPN
+				font-weight: 300
+				color: #ffffff
+
+.features
+	padding-top: 65px
+	.list
+		display: flex
+		justify-content: space-around
+		.items
+			width: 25%
+			padding: 24px 0 50px
+			text-align: center
+			background: none
+			border: none
+			border-bottom: 2px solid #5c5b5b21
+			box-shadow: 0 2px 1px 0 rgba(0,0,0,.05)
+			&:nth-child(2)
+				border-bottom: none
+				border-right: 2px solid #5c5b5b21
+				border-left: 2px solid #5c5b5b21
+				border-top: 2px solid #5c5b5b21
+				box-shadow: 0px -1px 3px 0px rgba(0,0,0,.05)
+				p
+					font-size: 27px
+					font-weight: 600
+			&:focus 
+				outline: none
+			img
+				height: 154px
+				margin-bottom: 19px
+			p
+				text-align: center
+				font-family: SegoeWPN
+				width: 155px
+				margin: 0 auto
+				font-size: 23px
+				font-weight: 300
+				color: #7b7a7a
+	.descr
+		border-right: 2px solid #5c5b5b21
+		border-bottom: 2px solid #5c5b5b21
+		border-left: 2px solid #5c5b5b21
+		padding: 100px 71px 68px 54px
+		box-shadow: 0 4px 4px 0 rgba(0,0,0,.05)
+		margin-bottom: 22px
+		img
+			display: block
+			width: 600px
+			margin: 0 auto	
+			margin-bottom: 61px
+		.title
+			font-size: 39px
+			color: #4f4f4f
+			margin-bottom: 28px
+			font-weight: 300
+		p
+			font-size: 14px
+			line-height: 1.71
+			color: #818181
+			font-family: UniversCE
+			font-weight: 300
+
+.choose 
+	.wrapper
+		display: flex
+		align-items: center
+		margin-bottom: 74px
+		.text
+			margin-left: 54px
+			.title
+				font-size: 33px
+				color: #4f4f4f
+				margin-left: -30px
+				margin-bottom: 30px
+				font-weight: 300
+			.descr
+				font-size: 16px
+				line-height: 2.38
+				color: #8a8888
+				font-weight: 300
+				font-family: UniversCE
+				li
+					list-style-type: none
+					position: relative
+					&:before
+						content: ''
+						position: absolute
+						display: block
+						background: url("../img/mark.png") center center/cover no-repeat
+						width: 18px
+						height: 18px
+						left: -29px
+						top: 9px
+
+.string
+	border: 1px solid #5c5b5b21
+	margin-bottom: 24px
+
+.forms
+	.wrapper
+		display: flex
+		margin-bottom: 35px
+		.subscribe
+			background-color: #01d4f3
+			form
+				input
+					width: 265px
+					margin-right: 49px
+				button
+					width: 111px
+					background-color: #029bb1
+
+footer
+	background: #3c3c3c
+	padding-top: 34px
+	padding-bottom: 46px
+	.wrapper	
+		display: flex
+		.block_about,
+		.block_descr
+			.title
+				font-size: 22px
+				font-weight: 300
+				font-family: Arial
+				line-height: 1.5
+				color: #ffffff
+				margin-bottom: 17px
+			a img
+				width: 16px
+				height: 16px
+			#prev
+				position: absolute
+				left: 200px
+				top: 4px
+			#next
+				position: absolute
+				left: 224px
+				top: 4px
+			.subtitle 
+				font-size: 13px
+				line-height: 1.69
+				color: rgba(255, 255, 255, 0.5)
+				li 
+					list-style-type: none
+				a 
+					font-family: Arial
+					font-size: 13px
+					line-height: 1.69
+					color: rgba(255, 255, 255, 0.5)
+		.block_descr
+			p 	
+				font-size: 13px
+				line-height: 1.69
+				font-family: Arial
+				color: rgba(255, 255, 255, 0.66)
+		.block_logo
+			h3 	
+				font-family: MrsEaves
+				font-style: italic
+				font-size: 119px
+				color: rgba(255, 255, 255, 0.22)
+				line-height: 1
+				margin-top: 32px
+			p 
+				font-size: 13px
+				color: rgba(255, 255, 255, 0.8)
+				margin-bottom: 0
+
